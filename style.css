@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Marcellus SC', serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7%;
+    align-items: center;
+}
+
+.left {
+    background: url("izmage-product-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.right{
+    box-sizing: content-box;
+    height: 440px;
+    width: 320px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(146, 146, 146);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.per{
+    
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.gabril {
+    font-size: 1.1rem;
+    line-height: 35px;
+    text-align: left;
+    margin-left: -50px;
+
+}
+
+pre.content{
+    margin-top: 20px;
+    font-size: .95rem;
+    position: relative;
+    top: -70px;
+}
+
+h1.price{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    display: inline-block;
+    font-size: 2.1rem;
+    position: relative;
+    top: -70px;
+    left: 40px;
+    color: rgba(0, 138, 46, 0.801);
+}
+
+span s{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    position: relative;
+    font-size: 1.05rem;
+    top: -77px;
+    left: 55px;
+    color: rgba(0, 138, 46, 0.801);
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    width: 20vw;
+    height: 7vh;
+    position: relative;
+    top: -40px;
+    left: 25px;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: rgba(0, 138, 46, 0.801);
+    background-color: rgba(0, 138, 46, 0.801);
+}
+
+.img1 img{
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+}
+
+@media screen and (max-width: 375px)
+{
+    .main{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        /* margin-top: 10%;
+        margin-left: 4%; */
+        margin: 5% 3% 0% 3%;
+        align-items: center;
+    }
+    .left {
+        background: url("izmage-product-mobile.jpg") no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: 50vh;
+        width: 95vw;
+        border-radius: 10px 10px 0px 0px;
+        box-shadow: 0px 1px 5px rgb(146, 146, 146);
+    }
+    
+    .right{
+        margin-top: -20px;
+        box-sizing: content-box;
+        height: 60vh;
+        width: 95vw;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgb(146, 146, 146);
+        border-radius: 0px 0px 10px 10px;
+    }
+    .per{
+        
+        letter-spacing: 5px;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    p.per {
+        position: relative;
+        top:20px;
+    }
+    .gabril {
+        font-size: 1rem;
+        line-height: 35px;
+        text-align: left;
+        margin-left: -50px;
+    
+    }
+    
+    pre.content{
+        margin-top: 10px;
+        font-size: .95rem;
+        position: relative;
+        top: -70px;
+        left: -5px;
+    }
+    
+    h1.price{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        display: inline-block;
+        font-size: 1.8rem;
+        position: relative;
+        top: -70px;
+        left: 40px;
+        color: rgba(0, 138, 46, 0.801);
+    }
+    
+    span s{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        position: relative;
+        font-size: .89rem;
+        top: -73px;
+        left: 55px;
+        color: rgba(0, 138, 46, 0.801);
+    }
+    
+    button {
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 10px;
+        width: 80vw;
+        height: 7vh;
+        position: relative;
+        top: -50px;
+        left: 25px;
+        border-radius: 11px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        background-color: rgba(0, 138, 46, 0.801);
+        color: white;
+    }
+    
+    .img1 img{
+        position: relative;
+        left: 50px;
+        bottom: 5px;
+    }
+}
