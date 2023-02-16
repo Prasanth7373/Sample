@@ -38,6 +38,7 @@
     font-size: 1.2rem;
     margin-top: 20px;
     margin-left: 30px;
+    color:gray;
 }
 .gabril {
     font-size: 1.1rem;
@@ -52,6 +53,7 @@ pre.content{
     font-size: .95rem;
     position: relative;
     top: -70px;
+    color:gray;
 }
 
 h1.price{
@@ -86,7 +88,7 @@ button {
     border: none;
     cursor: pointer;
     text-align: center;
-    color: rgba(0, 138, 46, 0.801);
+    color: white;
     background-color: rgba(0, 138, 46, 0.801);
 }
 
