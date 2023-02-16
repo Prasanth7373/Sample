@@ -88,8 +88,8 @@ button {
     border: none;
     cursor: pointer;
     text-align: center;
-    color: white;
     background-color: rgba(0, 138, 46, 0.801);
+    color: white;
 }
 
 .img1 img{
